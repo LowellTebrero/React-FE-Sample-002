@@ -1,0 +1,24 @@
+.from-regain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+.from-regain img {
+    margin: 0 40px;
+    transition: 0.5s;
+}
+
+.from-regain img:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 500px) {
+    
+    .from-regain  {
+        flex-wrap: wrap;
+        margin: 4px;
+    }
+    
+}

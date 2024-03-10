@@ -1,0 +1,79 @@
+.hero {
+    width: 95%;
+    margin: auto;
+    min-height: 85vh;
+    background:  url('../../assets/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.hero-text {
+    max-width: 900px;
+}
+
+.hero-text h2 {
+    font-weight: 400;
+}
+.hero-text h1 {
+    font-weight: 500;
+    font-size: 95px;
+    line-height: 1.1;
+}
+
+.hero-text p {
+    margin-top: 10px;
+}
+
+.hero-button {
+    margin-top: 20px;
+}
+
+.hero-button-learn {
+    background: #fff;
+    padding: 4px 15px;
+    border: none;
+    font-weight: 500;
+    font-size: 20px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+
+.hero-button-earn {
+    background: none;
+    padding: 1px 15px;
+    border: none;
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+    border: 3px solid red;
+    cursor: pointer;
+}
+
+
+/* ----- Media Query ----- */
+
+@media (max-width: 1000px) {
+    .hero-text h1 {
+        font-size: 80px;
+    }
+}
+
+@media (max-width: 850px) {
+    .hero-text h1 {
+        font-size: 50px;
+         margin: auto;
+    }
+    .hero-text h2 {
+        font-size: 20px;
+        margin: auto;
+    }
+    .hero-text p {
+        font-size: 14px;
+        margin: 15px auto 30px;
+    }
+}
